@@ -4,11 +4,11 @@ import { buffer } from "stream/consumers";
 
 export default function Content() {
   return (
-    <div className="flex h-[50rem] w-full items-center justify-center  my-10   ">
-      <div className="w-[80%] h-full flex  relative text-gray-300  backdrop-brightness-50  rounded-2xl overflow-hidden">
-        <div className="text-gray-400 flex flex-col  pl-5 pt-5">
-          <h1 className=" animate-pulse uppercase text-xl font-blod bg-gradient-to-r from-gray-900 via-gray-400 to-gray-900  bg-clip-text font-bold  text-transparent ">
-            iPhone 14 Pro Max - Space Schwarz
+    <div className="flex h-[50rem] w-full items-center justify-center  my-10 md:flex-row  ">
+      <div className="w-[80%] h-[80%] flex  relative text-gray-300  backdrop-brightness-50  rounded-2xl overflow-hidden">
+        <div className="text-gray-400  flex flex-col  pl-5 pt-5">
+          <h1 className=" animate-pulse uppercase text-lg font-blod bg-gradient-to-r from-gray-900 via-gray-400 to-gray-900  bg-clip-text font-bold  text-transparent ">
+            iPhone 14 Pro Max - Schwarz
           </h1>
           <h1 className="mt-5 pl-2">deaa</h1>
           <ul className="list-disc pl-5 mt-3">
@@ -38,22 +38,23 @@ export default function Content() {
           <button
             className="w-[60%] flex z-50 items-center justify-center text-center mt-5 rounded-full relative
             transition-all duration-150  font-bold  hover:animate-pulse hover:pointShadow
-      py-1 bg-[linear-gradient(#ffffff99,#ffffff00,#0000004d,#ffffff33)] before:block before:contents-['']  before:absolute before:left-[8px] before:right-[8px] before:top-[5px] before:h-[10px] before:transform  before:rounded-full before:bg-[linear-gradient(#ffffffcc,#ffffff00)]  before:opacity-20 "
+            py-1 bg-[linear-gradient(#ffffff99,#ffffff00,#0000004d,#ffffff33)] before:block before:contents-['']  before:absolute before:left-[8px] before:right-[8px] before:top-[5px] before:h-[10px] before:transform  before:rounded-full before:bg-[linear-gradient(#ffffffcc,#ffffff00)]  before:opacity-20 "
           >
             <span className="text-sm ">EinKaufen mit</span>
             <span className="">
               <img
-                className="h-10"
+                className="h-10 "
                 src="https://www.pngall.com/wp-content/uploads/5/PayPal-Logo-PNG-Free-Image.png"
               />
             </span>
           </button>
         </div>
 
-        <div className="h-72 w-72 absolute rounded-full  bg-indigo-900/50 -right-8 -bottom-8 z-0 animate-pulse blur " />
+        <div className="h-[20rem] w-[22rem] lg:h-[30rem] lg:w-[40rem] absolute rounded-full    bg-indigo-900 lg:right-[15rem] lg:-bottom-[20rem] lg:rotate-12 -right-8 -bottom-8 z-0 animate-puls blur-xl  brightness-50 " />
+        <div className="hidden lg:block w-[35rem] h-[50rem] rotate-[12deg]  absolute rounded-2xl  bg-indigo-900 -right-24 -bottom-16 z-0 animate-puls blur-xl brightness-50  " />
       </div>
       <img
-        className=" z-50 absolute right-8 bottom-7 h-72  rotate-[12deg] "
+        className=" z-50 absolute lg:right-32 right-8 bottom-7 h-72 lg:h-[22rem] xl:h-[25rem] rotate-[12deg] "
         src="https://static.esrgear.com/wp-content/uploads/2022/09/iPhone-14-Pro-Project-Zero-Clear-Case.png"
       />
     </div>
