@@ -78,7 +78,7 @@ function Hero() {
               </button>
             </div>
             <img
-              className=" sepia group-hover:sepia-0 group-hover:transition-all group-hover:duration-500 group-hover:ease-out -hue-rotate-15 z-0 object-fill h-full w-full rounded-2xl"
+              className="  group-hover:transition-all group-hover:duration-500 group-hover:ease-out -hue-rotate-15 z-0 object-fill h-full w-full rounded-2xl"
               //src="https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-14-pro-max-deep-purple.png?v=35"
               src="https://about.powermaccenter.com/wp-content/uploads/2022/09/RX-S1_Smart_1-1-1024x794.png"
               alt=""
@@ -139,7 +139,7 @@ function Hero() {
               </button>
             </div>
             <img
-              className="sepia group-hover:sepia-0 -hue-rotate-15 sab z-0 object-fill h-full w-full rounded-2xl "
+              className="  -hue-rotate-15 sab z-0 object-fill h-full w-full rounded-2xl "
               //src="https://cdn.shopify.com/s/files/1/0646/5283/7076/products/Gold-Img1_603600a4-6feb-4f50-bff1-f914e6b1cb59.png?v=1662890867"
               src="https://about.powermaccenter.com/wp-content/uploads/2022/09/RX-S1_Smart_1-1-1024x794.png"
               alt=""
@@ -200,7 +200,7 @@ function Hero() {
               </button>
             </div>
             <img
-              className=" sepia group-hover:sepia-0  -hue-rotate-15 object-fill h-full w-full rounded-2xl "
+              className="-hue-rotate-15 object-fill h-full w-full rounded-2xl "
               src="https://about.powermaccenter.com/wp-content/uploads/2022/09/RX-S1_Smart_1-1-1024x794.png"
               alt=""
             />
