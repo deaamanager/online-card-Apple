@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 function Footer() {
   return (
     <footer>
@@ -19,7 +19,7 @@ function Footer() {
         />
       </div>
       <hr className="mx-w-3xl  boreder-2 border-indigo-900 my-5 mx-3" />
-      <div className="flex items-center justify-center mx-6 ">
+      <div className="flex items-center justify-center mx-14 ">
         <img
           alt="Bezahl-methode"
           src="https://www.bettdecke.de/wp-content/uploads/2020/11/trust-bottom.png"
@@ -27,9 +27,17 @@ function Footer() {
         />
       </div>
       <div className="flex items-center justify-center my-3 mx-1 relative rounded-2xl overflow-hidden h-16 ">
-        <div className="bg-indigo-900/90  absolute w-full h-[100%]  blur-2xl  " />
-        <div className="bg-[#111] relative top-1 w-full h-[90%] flex items-center justify-center">
-          <h1> deaa </h1>
+        <div className="bg-indigo-900/90 animate-spin  absolute w-full duration-1000 ease-linear transition-all h-[100%]  blur-2xl  " />
+        <div className="bg-[#111] relative top-1 w-full h-[97%] flex items-center justify-center">
+          <h1 className="text-gray-500 text-[13px] text-center md:text-base">
+            {" "}
+            Copyright © 2023 - All right reserved by{" "}
+            <Link href="https://frontend-react-brown.vercel.app/">
+              <span className="underline hover:text-indigo-900 ">
+                Deaa Aldin Alawad
+              </span>
+            </Link>
+          </h1>
         </div>
       </div>
     </footer>
@@ -37,3 +45,9 @@ function Footer() {
 }
 
 export default Footer;
+{
+  /*
+ 
+
+*/
+}

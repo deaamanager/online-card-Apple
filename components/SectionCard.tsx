@@ -2,7 +2,7 @@
 
 function SectionCard() {
   return (
-    <div className="h-[95vh] relative  w-full -bottom-[13rem] left-0 bg-green-500. rounded-2xl flex flex-col items-center my-24  ">
+    <div className="h-[100vh] relative  w-full -bottom-[13rem] left-0 bg-green-500. overflow-hidden rounded-2xl flex flex-col items-center my-24  ">
       <div className="h-full lg:w-[80%] w-[94%] bg-red-500. backdrop-blur backdrop-brightness-200  rounded-2xl flex flex-col justify-center items-center ">
         <div className="h-[23rem] w-[80%]  rounded-xl mt-10  ">
           <img
